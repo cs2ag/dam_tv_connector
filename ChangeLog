@@ -1,0 +1,18 @@
+(add new changes on top of this file)
+
+10-04-08 Christian Welzel <gawain@camlann.de>
+	* Code Cleanup
+	* Raised required version of Templavoila to 1.4.2
+
+07-12-13 Christian Welzel <gawain@camlann.de>
+	* Added random and slide functions (thanks to Francois Suter <fsuter@cobweb.ch>)
+
+07-02-21 Rene Fritz  <r.fritz@colorcube.de>
+	* Added: /class.ux_tx_templavoila_cm1.php XCLASS for context menu to show TV cm in second level of Media>List moduleThis is a modified version of 
+	* Change:  moved /class.ux_tx_templavoila_cm1.php to /cm1/class.ux_tx_templavoila_cm1.php
+
+06-05-22 Christian Welzel  <gawain@camlann.de>
+	* added manual.swx
+
+06-05-20 Christian Welzel  <gawain@camlann.de>
+	* Initial release
