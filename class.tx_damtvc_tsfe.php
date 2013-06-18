@@ -57,6 +57,11 @@ class tx_damtvc_tsfe {
 		if(empty($refTable))
 			$refTable = 'tt_content';
 
+		// Support repetitive DAM objects in FCEs
+		if ($conf['repetitive'] && $GLOBALS['TSFE']->register['tx_templavoila_pi1.sectionPos']) {
+			$refField .= '_'.$GLOBALS['TSFE']->register['tx_templavoila_pi1.sectionPos'];
+		}
+
 // Extract list of files from the additional file list
 
 		foreach ($fileList as $file) {
